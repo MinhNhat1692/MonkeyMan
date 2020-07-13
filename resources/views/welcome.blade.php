@@ -84,11 +84,8 @@
                     <img src="{{ asset('img/logo.png') }}" alt="MonkeyMan">
                     
                 </div>
-                <h1 style="text-align:center">
-                    Database Pending
-                </h1>
                 <div class="links">
-                    <a href="https://github.com/Minhnhat1692/Monkeyman">GitHub</a>
+                    <a href="https://github.com/Minhnhat1692/Monkeyman">Database Pending</a>
                 </div>
             </div>
         </div>
