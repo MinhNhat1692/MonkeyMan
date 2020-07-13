@@ -15,11 +15,11 @@ class CreatePostTable extends Migration
     {
         Schema::create('post', function (Blueprint $table) {
             $table->id();
-            $table->integer('slug1');
-            $table->integer('slug2');
-            $table->integer('slug3');
-            $table->integer('slug4');
-            $table->integer('slug5');
+            $table->integer('slug1')->default(0);
+            $table->integer('slug2')->default(0);
+            $table->integer('slug3')->default(0);
+            $table->integer('slug4')->default(0);
+            $table->integer('slug5')->default(0);
             $table->index(['slug1','slug2','slug3','slug4','slug5']);
             $table->string("body");
             $table->string("css");
