@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('welcome');
+});
+
 Route::get('/{slug1}/{slug2}/{slug3}/{slug4}/{slug5}', 'DynamicCyloController@getSlugCombine');
 
 Route::get('/{slug1}/{slug2}/{slug3}/{slug4}', 'DynamicCyloController@getSlugCombine');
