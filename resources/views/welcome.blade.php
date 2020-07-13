@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    <img src="{{ asset('img/logo.png') }}" alt="MonkeyMan">
+                    <img src="{{ asset('img/logo.png') }}" alt="MonkeyMan" style="max-width: 90%">
                     
                 </div>
                 <div class="links">
