@@ -81,7 +81,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    MonkeyMan
+                    <img src="{{ asset('img/logo.png') }}" alt="MonkeyMan">
+                    
                 </div>
                 <h1 style="text-align:center">
                     Database Pending
