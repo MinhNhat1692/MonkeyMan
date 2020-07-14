@@ -8,8 +8,10 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-        <link rel="stylesheet" href="{{ URL::asset('css/somestylesheet.css') }}" />
         <!-- Styles -->
+        <link href="/css/app.css" rel="stylesheet">
+
+
         <style>
             html, body {
                 background-color: #fff;
@@ -63,5 +65,8 @@
             }
         </style>
     </head>
-    <?= $post->body; ?>
+    <body >
+        <?= $post->body; ?>
+        <script src="/js/app.js"></script>
+    </body>
 </html>

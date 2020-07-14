@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/media', function () {
+    return view('welcome');
+})->middleware('auth');
+
 Route::get('/{slug1}/{slug2}/{slug3}/{slug4}/{slug5}', 'DynamicCyloController@getSlugCombine');
 
 Route::get('/{slug1}/{slug2}/{slug3}/{slug4}', 'DynamicCyloController@getSlugCombine');
@@ -26,3 +34,5 @@ Route::get('/{slug1}/{slug2}/{slug3}', 'DynamicCyloController@getSlugCombine');
 Route::get('/{slug1}/{slug2}', 'DynamicCyloController@getSlugCombine');
 
 Route::get('/{slug1}', 'DynamicCyloController@getSlugCombine');
+
+

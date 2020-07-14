@@ -21,7 +21,7 @@ class CreatePostTable extends Migration
             $table->integer('slug4')->default(0);
             $table->integer('slug5')->default(0);
             $table->index(['slug1','slug2','slug3','slug4','slug5']);
-            $table->string("body");
+            $table->text("body");
             $table->string("css");
             $table->string("js");
             $table->timestamps();
