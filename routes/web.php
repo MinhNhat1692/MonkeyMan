@@ -21,9 +21,10 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/media', function () {
-    return view('welcome');
-})->middleware('auth');
+Route::get('/media', 'MediaController@index')->middleware('auth');
+
+Route::post('/media/intervention-image-upload', 'MediaController@ResizeStore')->middleware('auth');
+
 
 Route::get('/{slug1}/{slug2}/{slug3}/{slug4}/{slug5}', 'DynamicCyloController@getSlugCombine');
 
