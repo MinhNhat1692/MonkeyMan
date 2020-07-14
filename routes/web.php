@@ -21,7 +21,9 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/media', 'MediaController@index')->middleware('auth');
+Route::get('/media/manager', 'MediaController@index')->middleware('auth');
+
+Route::get('/media/upload', 'MediaController@upload')->middleware('auth');
 
 Route::post('/media/intervention-image-upload', 'MediaController@ResizeStore')->middleware('auth');
 

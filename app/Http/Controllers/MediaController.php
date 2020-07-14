@@ -15,6 +15,12 @@ class MediaController extends Controller
         return view('media.index', compact('image'));
     }
 
+    public function upload()
+    {
+        $image = Media::latest()->first();
+        return view('media.index', compact('image'));
+    }
+
     public function resizeStore(Request $request)
     {
 	    $this->validate($request, [
