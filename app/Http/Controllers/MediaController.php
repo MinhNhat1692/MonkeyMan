@@ -15,6 +15,11 @@ class MediaController extends Controller
         return view('media.index', compact('image'));
     }
 
+    public function GetAll(Request $request){
+        $imageList = Media::paginate($request->get('item_per_page'));
+        return response()->json($imageList,200);
+    }
+
     public function upload()
     {
         $image = Media::latest()->first();

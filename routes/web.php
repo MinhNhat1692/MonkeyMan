@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes();
+Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
 
@@ -27,6 +27,7 @@ Route::get('/media/upload', 'MediaController@upload')->middleware('auth');
 
 Route::post('/media/intervention-image-upload', 'MediaController@ResizeStore')->middleware('auth');
 
+Route::get('/media/GetAll','MediaController@GetAll')->middleware('auth');
 
 Route::get('/{slug1}/{slug2}/{slug3}/{slug4}/{slug5}', 'DynamicCyloController@getSlugCombine');
 
