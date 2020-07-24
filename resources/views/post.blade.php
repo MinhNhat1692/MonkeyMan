@@ -10,8 +10,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <link href="/css/app.css" rel="stylesheet">
-
-
+        <link href="/css/post.css" rel="stylesheet">
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
         <style>
             html, body {
                 background-color: #fff;
@@ -67,6 +67,8 @@
     </head>
     <body >
         <?= $post->body; ?>
+        <button onclick="topFunction()" id="toTopBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
         <script src="/js/app.js"></script>
+        <script src="/js/custom.js"></script>
     </body>
 </html>

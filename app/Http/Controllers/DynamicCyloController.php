@@ -9,7 +9,7 @@ use App\Http\Controllers\PostController;
 class DynamicCyloController extends Controller
 {
     //Get slug id for n cylo
-    public function getSlugCombine($slug1,$slug2 = null, $slug3 = null, $slug4 = null, $slug5 = null){
+    public function getSlugCombine($slug1 = "home",$slug2 = null, $slug3 = null, $slug4 = null, $slug5 = null){
         $slugList = [];
         $slug = RouteCylo::where('slug',$slug1)->first();
         if ($slug){
