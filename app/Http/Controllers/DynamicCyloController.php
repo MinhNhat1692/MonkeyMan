@@ -52,7 +52,7 @@ class DynamicCyloController extends Controller
         $post = PostController::getPost($slugList);
         if ($post){
             return view('post', [
-                'post' => $post
+                'post' => json_decode($post->body,true)
             ]);
         }else{
             abort(404);

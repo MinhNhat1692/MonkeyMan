@@ -66,7 +66,12 @@
         </style>
     </head>
     <body >
-        <?= $post->body; ?>
+        @inject('navbar','App\Http\Controllers\HeaderController')
+        @inject('section','App\Http\Controllers\SectionController')
+        {{$navbar::RenderSelectedHeader($post["navbar"])}}
+        @for ($i = 0; $i < count($post["body"]); $i ++)	
+            {{$section::RenderSelectedSection($post["body"][$i])}}
+		@endfor
         <button onclick="topFunction()" id="toTopBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
         <script src="/js/app.js"></script>
         <script src="/js/custom.js"></script>

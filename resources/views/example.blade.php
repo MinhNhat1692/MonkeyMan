@@ -91,3 +91,89 @@
 
 	</div>
 </section>
+<section class="section-3">
+	<div class="container-header">
+				<div class="row row-2">
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 padding_left">
+						<div class="sub-heading"><h5>Harness the power of</h5></div>
+						<div class="main-heading"><h1 class="no-margin">BigQuery</h1></div>
+						<div class="heading-text"><p>Our Data Pipeline service uses Google BigQuery to process, transform and store your data.</p></div>
+						<div class="list">
+							<ul>
+								 
+								<li>Unify data from all of marketing + sales platforms into one BigQuery warehouse</li>
+
+									 
+								<li>Complete data privacy - you own your own database, and control access to it</li>
+
+									 
+								<li>Report on your data wherever you need it: in Data Studio, Sheets, Tableau or Looker</li>
+
+									 
+
+							</ul>
+						</div>
+					</div>
+
+
+					<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 no-padding img-col">
+						<img class="" src="https://codingisforlosers.com/wp-content/uploads/2020/05/query.png" alt="">
+					</div>
+				</div>
+	</div>
+	
+</section>
+<section class="section-4">
+	<div class="container-header">
+		<div class="row work-row-1">
+
+			<div class="sec-heading"><h3>How does it work?</h3></div>
+			<div class="desc-text"><p>We'll migrate your data analysis workflows into one unified BigQuery pipeline.</p></div>
+			
+		</div>
+
+		<div class="row work-row-2 same-height-columns">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-small">
+				<div class="box box-get-responce active-box" data-href="https://codingisforlosers.com/wp-content/uploads/2020/05/work.png">
+					<div class="box-img"><img class="" src="https://codingisforlosers.com/wp-content/themes/cifl_theme/assets/images/pipeline/01.png" alt=""></div>
+					<div class="box-heading"><h5>Needs assessment</h5></div>
+					<div class="box-text"><p>We'll explore your current analysis processes, and strategize ways to bring them together into a single pipeline.</p></div>
+					
+				</div>
+
+
+				<div class="box top_margin box-get-responce" data-href="https://codingisforlosers.com/wp-content/uploads/2020/05/Group-361.png">
+					<div class="box-img"><img class="" src="https://codingisforlosers.com/wp-content/themes/cifl_theme/assets/images/pipeline/02.png" alt=""></div>
+					<div class="box-heading"><h5>Setup BigQuery warehouse</h5></div>
+					<div class="box-text"><p>A fastidious, world-renowned CIFL analyst brings all of your data together in your BigQuery warehouse.</p></div>
+					
+				</div>
+
+
+			</div>
+			<div class="col-lg-6 col-md-3 col-sm-12 col-medium">
+				<div class="box-img box-img-reponse"><img class="" src="https://codingisforlosers.com/wp-content/uploads/2020/05/work.png" alt=""></div>
+
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-12 col-small">
+				
+
+				<div class="box box-get-responce" data-href="https://codingisforlosers.com/wp-content/uploads/2020/05/Group-391.png">
+					<div class="box-img"><img class="" src="https://codingisforlosers.com/wp-content/themes/cifl_theme/assets/images/pipeline/03.png" alt=""></div>
+					<div class="box-heading"><h5>Analyze + visualize</h5></div>
+					<div class="box-text"><p>We build a custom analysis “Recipe” to churn your raw data into buttery reporting.</p></div>
+				</div>
+
+
+				<div class="box top_margin box-get-responce" data-href="https://codingisforlosers.com/wp-content/uploads/2020/05/Group-392.png">
+					<div class="box-img"><img class="" src="https://codingisforlosers.com/wp-content/themes/cifl_theme/assets/images/pipeline/04.png" alt=""></div>
+					<div class="box-heading"><h5>Automate + maintain</h5></div>
+					<div class="box-text"><p>We'll keep your analysis running + refreshing daily, and make changes as you need them.  </p></div>
+					
+				</div>
+			</div>
+		</div>
+			
+	</div>
+	
+</section>
