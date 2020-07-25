@@ -1,8 +1,8 @@
 <div class="row" style="margin-top: 60px">
-    <div class="col-6">
+    <div class="col-md-6">
         <img class="section-banner" src="<?=$section["img"]?>" alt="banner">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
         <h3 style="padding: 10px 0px"><?=$section["title"]?></h3>
         <p style="font-size: 1.2em"><?=$section["description"]?></p>
         <ul class="list-unstyled" style="font-size: 1.2em">

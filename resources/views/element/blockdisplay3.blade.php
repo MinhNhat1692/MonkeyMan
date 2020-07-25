@@ -3,7 +3,7 @@
         <?=
 			view($folder."blockdisplay/singleblock", [
                 'section' => $section["options"][$i],
-                'width' => "col-4"
+                'width' => "col-md-4"
 			]);
 		?>	
     @endfor

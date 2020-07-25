@@ -1,5 +1,5 @@
 <div class="row" style="margin-top: 60px;padding: 50px 0px;">
-    <div class="col-6">
+    <div class="col-md-6">
         <h3 style="padding-bottom: 30px "><?=$section["title"]?></h3>
         <p style="font-size: 1.2em;font-weight: 400"><?=$section["description"]?></p>
         <ul class="list-unstyled" style="font-size: 1.2em">
@@ -8,7 +8,7 @@
         @endfor
         </ul>
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
         <img class="section-banner" src="<?=$section["img"]?>" alt="banner">
     </div>
 </div>
