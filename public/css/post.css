@@ -171,6 +171,12 @@ a:hover{
 
 footer a{
     color: #fff;
+    padding: 5px 0px;
+    display: block;
+}
+
+footer a:hover{
+    color: #fff;
 }
 
 .section-banner{
