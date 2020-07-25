@@ -7,6 +7,7 @@
         <title><?=$post["title"]?></title>
 
         <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <!-- Styles -->
         <link href="/css/app.css" rel="stylesheet">
@@ -16,7 +17,7 @@
             html, body {
                 background-color: #fff;
                 color: #636b6f;
-                font-family: 'Nunito', sans-serif;
+                font-family: 'Roboto', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
