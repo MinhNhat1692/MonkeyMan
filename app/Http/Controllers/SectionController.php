@@ -10,7 +10,8 @@ class SectionController extends Controller
     //
     public static function RenderSelectedSection($sectioninfo){
         return view('element/'.$sectioninfo["element"], [
-            'section' => $sectioninfo["value"]
+            'section' => $sectioninfo["value"],
+            'folder' => "element/"
         ]);
     }
 }

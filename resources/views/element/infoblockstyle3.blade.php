@@ -1,9 +1,9 @@
-<div class="row" style="margin-top: 60px">
+<div class="row" style="margin-top: 60px;padding: 50px 0px;">
     <div class="col-6">
         <img class="section-banner" src="<?=$section["img"]?>" alt="banner">
     </div>
     <div class="col-6">
-        <h3 style="padding: 10px 0px"><?=$section["title"]?></h3>
+        <h3 style="padding-bottom: 70px "><?=$section["title"]?></h3>
         <p style="font-size: 1.2em"><?=$section["description"]?></p>
         <ul class="list-unstyled" style="font-size: 1.2em">
         @for ($i = 0; $i < count($section["options"]); $i ++)
